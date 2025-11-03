@@ -16,4 +16,4 @@ The script requires four command-line arguments: `-url`, `-user`, `-session`, an
 Use the following format, replacing the placeholder values with your lab details:
 
 ```bash
-python3 nosql_exploit.py -url "http://<TARGET_IP_ADDRESS>/login.php" -user "admin" -session "<COOKIE_VALUE>" -maxlength 15
+python3 nosql_exploit.py -url "http://<TARGET_IP_ADDRESS>/login.php" -user "<USER_NAME>" -session "<COOKIE_VALUE>" -maxlength 15
