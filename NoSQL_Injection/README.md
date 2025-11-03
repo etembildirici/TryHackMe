@@ -18,4 +18,5 @@ Use the following format, replacing the placeholder values with your lab details
 ```bash
 python3 nosql_exploit.py -url "http://<TARGET_IP_ADDRESS>/login.php" -user "<USER_NAME>" -session "<COOKIE_VALUE>" -maxlength 15
 
+
 ![NoSQL Exploit Success Screenshot](nosql_injection.PNG)
